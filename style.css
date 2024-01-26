@@ -1,0 +1,329 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    background-image: url('https://i.pinimg.com/564x/f9/96/a8/f996a8b256632b8766e8735a6ac435a1.jpg');
+    background-size: cover;  
+    background-position: center;
+    background-attachment: fixed; /* Centers the background image */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #424242;
+    font-size: 150%;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li :hover {
+    background-color: #EED971FF;
+}
+
+.navbar {
+    margin-left: 65%;
+}
+
+.container {
+    width: 900px;
+    max-width: 90vw;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    margin-right: 370px; /* Adjusted margin-right */
+}
+.navbar .search-container {
+    position: relative;
+    right: 520px;
+    top: 20px;
+    
+}
+
+.navbar input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    padding-right: 270px;
+    margin-right: 500px;
+}
+
+.navbar .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+svg {
+    width: 45px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-right: 40px; 
+}
+
+header .cart-icon {
+    position: relative;
+}
+
+header .title,
+header .lunch-title,
+header .snacks-title,
+header .dinner-title {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(157, 9, 107);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: #0aa7db;
+    margin-bottom: 20px;
+}
+
+header .cart-icon span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 10, 10);
+    justify-content: center;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: -20px;
+}
+
+.food {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px; /* Increased gap between food items */
+}
+
+.food :hover {
+    transform: scale(1.05);
+}
+
+.food img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.food .items {
+    padding: 20px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.food .items h2 {
+    font-weight: 500;
+    font-size: large;
+}
+
+.food .items .price {
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+.food .items button {
+    background-color: rgb(48, 39, 39);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Style for Snacks Section */
+/* #snacksSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#snacksSection .items:hover {
+    transform: scale(1.05);
+}
+
+#snacksSection img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#snacksSection .items h2 {
+    font-weight: 500;
+    font-size: large;
+}
+
+#snacksSection .items .price {
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+#snacksSection .items button {
+    background-color: rgb(48, 39, 39);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+} */
+
+/* Style for Dinner Section */
+/* #dinnerSection {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#dinnerSection .items:hover {
+    transform: scale(1.05);
+}
+
+#dinnerSection img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#dinnerSection .items h2 {
+    font-weight: 500;
+    font-size: large;
+}
+
+#dinnerSection .items .price {
+    letter-spacing: 2px;
+    font-size: small;
+}
+
+#dinnerSection .items button {
+    background-color: rgb(48, 39, 39);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+} */
+
+.carttab {
+    width: 350px;
+    background-color: rgb(45, 41, 41);
+    color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+    transition: transform 0.5s;
+}
+
+.showcart {
+    inset: 0 0 0 auto;
+    transform: translateX(1px);
+}
+
+.carttab h2 {
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.carttab .btn {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.carttab .btn button {
+    background-color: yellow;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.carttab .btn .close {
+    background-color: white;
+}
+
+.carttab .listcart .items img {
+    width: 100%;
+}
+
+.carttab .listcart .items {
+    display: grid;
+    grid-template-columns: 50px 130px 50px 1fr;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.listcart .quantity span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: aliceblue;
+    color: rgb(45, 41, 41);
+    border-radius:  50%;
+    cursor: pointer;
+}
+
+.listcart .quantity span:nth-child(2) {
+    background-color: transparent;
+    color: aliceblue;
+}
+
+.listcart .items:nth-child(even) {
+    background-color: rgb(102, 74, 74);
+}
+
+.listcart {
+    overflow: auto;
+}
+
+.listcart::-webkit-scrollbar {
+    width: 0;
+}
+
+/* Media Query for All Food Sections */
+@media only screen and (max-width: 992px) {
+    .food {
+        grid-template-columns: repeat(3, 1fr);
+    }
+/* 
+    #snacksSection .items,
+    #dinnerSection .items {
+        grid-template-columns: repeat(2, 1fr);
+    } */
+}
+
+@media only screen and (max-width: 769px) {
+    .food {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* #snacksSection .items,
+    #dinnerSection .items {
+        grid-template-columns: repeat(1, 1fr);
+    } */
+}

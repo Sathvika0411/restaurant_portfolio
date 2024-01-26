@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            font-size: 28px;
+            background-image: url('https://png.pngtree.com/background/20210709/original/pngtree-flowers-green-plant-line-border-new-prodects-coming-picture-image_936732.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            margin: 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            top: 0;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: #0d551f;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li:hover {
+            background-color: #EED971FF;
+        }
+
+        .navbar {
+            margin-left: 65%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            margin-left: 250px;
+            margin-top: 100px;
+        }
+
+        .container div {
+            display: inline-block;
+            text-align: center;
+            margin-right: 20px; /* Adjust the margin between icons */
+            margin-bottom: 20px;
+            
+        }
+
+        .container div img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .container div p {
+            font-size: 80%;
+        }
+
+        /* Media Query for Responsive Styles */
+        @media only screen and (max-width: 768px) {
+            body {
+                font-size: 20px;
+            }
+
+            .navbar {
+                margin-left: 0;
+                text-align: center;
+            }
+
+            li {
+                float: none;
+                display: block;
+                text-align: center;
+            }
+
+            .navbar ul {
+                margin-top: 10px;
+            }
+
+            .title {
+                font-size: 20px;
+                margin-right: 0;
+            }
+
+            .container div {
+                display: block;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+
+            .container div img {
+                margin: 0 auto;
+            }
+
+            .container div p {
+                font-size: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <h3 style="margin-left: 95px; margin-top: 100px;">Feel Free to Contact Us.........</h3>
+    <div class="container">
+        <!-- Address Section -->
+        <div>
+            <a href="https://www.google.com/maps?q=Mahatma+Gandhi+Rd,+A-Zone,+Durgapur,+West+Bengal+713209">
+                <img src="https://cdn-icons-png.flaticon.com/128/8305/8305486.png" alt="address icon" width="80" height="80">
+            </a>
+            <p>Mahatma Gandhi Rd, A-Zone,<br> Durgapur, West Bengal 713209</p>
+        </div>
+
+        <!-- Phone Section -->
+        <div>
+            <a href="tel:7013358108">
+                <img src="https://cdn-icons-png.flaticon.com/512/901/901141.png" alt="phone icon" width="80" height="80">
+            </a>
+            <p>7013358108</p>
+        </div>
+
+        <!-- Email Section -->
+        <div>
+            <a href="mailto:cs.22u10460@btech.nitdgp.ac.in">
+                <img src="https://cdn-icons-png.flaticon.com/128/7852/7852594.png" alt="email icon" width="80" height="80">
+            </a>
+            <p>cs.22u10460@btech.nitdgp.ac.in</p>
+        </div>
+    </div>
+</body>
+
+</html>

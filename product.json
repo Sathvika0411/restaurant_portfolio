@@ -1,0 +1,116 @@
+[
+    {
+        "id": 1,
+        "name": "poori",
+        "price": 70,
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbIHbF2GmmniQ3v_loJzMB6GBNiD6C9SMYxmrtVG-I4g&s",
+        "category": "breakfast"
+    },
+    {
+        "id": 2,
+        "name": "Idli",
+        "price": 50,
+        "image": "https://i.pinimg.com/564x/ee/22/6d/ee226d0ec4f8d41b89eb320321ac1144.jpg",
+        "category": "breakfast"
+    },
+    {
+        "id": 3,
+        "name": "dosa",
+        "price": 75,
+        "image": "https://media.istockphoto.com/id/1156896023/photo/cheese-masala-dosa-recipe-with-sambar-and-chutney-selective-focus.jpg?s=612x612&w=0&k=20&c=ddWTTzN52tHM_jqSRj35G9WYoas2Da3HLwzOxaQ0WFY=",
+        "category": "breakfast"
+    },
+    {
+        "id": 4,
+        "name": "upma",
+        "price": 40,
+        "image": "https://media.istockphoto.com/id/1306315890/photo/upma-or-rava-upma.jpg?s=612x612&w=0&k=20&c=YIK5fSdhs8sJ-VCSk9XkX2q-TYn7Oyr6XDgWtXpxzLY=",
+        "category": "breakfast"
+    },
+    {
+        "id": 5,
+        "name": "Biryani",
+        "price": 120,
+        "image": "https://i.pinimg.com/564x/2b/64/e1/2b64e15ac11687bb3074b9f7abc87edd.jpg",
+        "category": "lunch"
+    },
+    {
+        "id": 6,
+        "name": "rice",
+        "price": 150,
+        "image": "https://i.pinimg.com/564x/eb/e1/90/ebe1906adfb5ef6b73aa33b729cba4b3.jpg",
+        "category": "lunch"
+    },
+    {
+        "id": 7,
+        "name": "kadai panneer",
+        "price": 100,
+        "image": "https://i.pinimg.com/736x/a1/0f/3a/a10f3a66718f6b030ad83631f8305dc6.jpg",
+        "category": "lunch"
+    },
+    {
+        "id": 8,
+        "name": "Mushroom biryani",
+        "price": 80,
+        "image": "https://i.pinimg.com/564x/e3/99/8d/e3998d805ae944964732f82e5701e9cb.jpg",
+        "category": "lunch"
+    },
+    {
+        "id": 9,
+        "name": "samosa",
+        "price": 20,
+        "image": "https://i.pinimg.com/564x/4c/92/02/4c9202898bf1fa3a09925c2a34e4e2a8.jpg",
+        "category": "snacks"
+    },
+    {
+        "id": 10,
+        "name": "chips",
+        "price": 30,
+        "image": "https://i.pinimg.com/236x/b0/c2/ff/b0c2ff09dce8487ddf1124b5e0dc8e3a.jpg",
+        "category": "snacks"
+    },
+    {
+        "id": 11,
+        "name": "pizza",
+        "price": 200,
+        "image": "https://i.pinimg.com/564x/a9/87/44/a98744bac3b04ee72e13c6ef4fb0a8a9.jpg",
+        "category": "snacks"
+    },
+    {
+        "id": 12,
+        "name": "french fries",
+        "price": 60,
+        "image": "https://i.pinimg.com/564x/b4/db/a9/b4dba95b14b9f786ed310e2baf4fc9a4.jpg",
+        "category": "snacks"
+    },
+    {
+        "id": 13,
+        "name": "roti",
+        "price": 20,
+        "image": "https://i.pinimg.com/564x/2a/27/09/2a27096c2010304ec371e3ee9371a070.jpg",
+        "category": "dinner"
+    },
+    {
+        "id": 14,
+        "name": "lemon rice",
+        "price": 60,
+        "image": "https://i.pinimg.com/236x/d8/5d/c6/d85dc61bec1a85fc35884d1384c952cd.jpg",
+        "category": "dinner"
+    },
+    {
+        "id": 15,
+        "name": "veg biryani",
+        "price": 100,
+        "image": "https://i.pinimg.com/564x/3f/f7/dd/3ff7dde39882afdbe6007fecbe1e4c10.jpg",
+        "category": "dinner"
+    },
+    {
+        "id": 16,
+        "name": "curd rice",
+        "price": 30,
+        "image": "https://i.pinimg.com/236x/6b/62/50/6b62509f2bf0aec8cf077951700b874d.jpg",
+        "category": "dinner"
+    }
+    
+
+]
